@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 29px;
+  font-family: 'Roboto Mono', monospace;
+}
+body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100vh;
+  background-color: #000;
+  color: #e0e0e0;
+}
+.countdown_timer{
+  display: flex;
+}
+.timer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 10px;
+}
