@@ -13,10 +13,12 @@ body {
   margin: auto;
   height: 100vh;
   background-color: #ffbb00;
-  color: #e0e0e0;
+  color: #000000;
 }
 .countdown_timer{
+  border-radius: 10px;
   display: flex;
+  background-color: #f7c743;
 }
 .timer{
   display: flex;
