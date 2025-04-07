@@ -5,7 +5,7 @@ const seconds = document.getElementById('seconds');
 
 const currentYear = new Date().getFullYear();
 
-const controlDate = new Date(`January 1 ${currentYear + 1} 00:00:00`);
+const controlDate = new Date(`April 23 ${currentYear} 00:00:00`);
 
 function countdownTimer() {
   const todayDate = Date.now();
