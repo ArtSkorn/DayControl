@@ -12,13 +12,13 @@ body {
   justify-content: center;
   margin: auto;
   height: 100vh;
-  background-color: #ffbb00;
-  color: #000000;
+  background-color: #2e2e2e;
+  color: #ffffff;
 }
 .countdown_timer{
   border-radius: 10px;
   display: flex;
-  background-color: #f7c743;
+  background-color: #000000;
 }
 .timer{
   display: flex;
