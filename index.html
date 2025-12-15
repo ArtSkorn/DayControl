@@ -7,7 +7,16 @@
 </head>
 
 <body>
-  <button name="switch">switch timer</button>
+  <button onclick="alert('Кнопка нажата!')">Нажми меня</button>
+
+<button onclick="handleClick()">Нажми с вызовом функции</button>
+
+<script>
+function handleClick() {
+  console.log("Обработка клика");
+  document.body.style.backgroundColor = "lightblue";
+}
+</script>
   <div class="wrapper">
     <div class="countdown_timer">
       <div class="timer"><h2 id="days">00</h2><p>Дней</p></div>
